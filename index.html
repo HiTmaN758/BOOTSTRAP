@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                   <img src="images/logo.png" alt="">
@@ -20,15 +20,15 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">Shoes</a>
-                  <a class="nav-link" href="#">Backpacks</a>
-                  <a class="nav-link" href="#">Subscribe</a>
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  <a class="nav-link" href="#shoe">Shoes</a>
+                  <a class="nav-link" href="#backpack">Backpacks</a>
+                  <a class="nav-link" href="#subscribe">Subscribe</a>
                 </div>
               </div>
             </div>
           </nav>
-          <div id="carouselExampleControls" class="carousel slide panda-slide margin-top mb-5" data-bs-ride="carousel">
+          <div id="carouselExampleControls home" class="carousel slide panda-slide margin-top mb-5" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="row d-flex align-items-center p-5">
@@ -83,7 +83,7 @@
     </header>
     <main class="container">
       <section class="container overflow-hidden margin-top categories">
-        <div class="row gx-5">
+        <div class="row g-5">
           <div class="col">
            <div class="p-3 border-rad bg-warning d-flex align-items-center justify-content-around">
              <h1 class="text-white">Watch</h1>
@@ -104,7 +104,7 @@
            </div>
         </div>
       </section>
-      <section class="margin-top">
+      <section id="shoe" class="margin-top">
         <h3>Shoes</h3>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
@@ -151,7 +151,7 @@
           </div>
         </div>
       </section>
-      <section class="margin-top">
+      <section id="backpack" class="margin-top">
         <h3>Backpack</h3>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
@@ -198,7 +198,7 @@
           </div>
         </div>
       </section>
-      <section style="height: 300px;" class="footer-back d-flex justify-content-center align-items-center">
+      <section id="subscribe" style="height: 300px;" class="footer-back d-flex justify-content-center align-items-center">
         <div>
           <h2>LET'S STAY IN TOUCH</h1>
         <h6>Get updates on sales,specials and more</h6>
